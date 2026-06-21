@@ -4,7 +4,7 @@ Rigorous comparison of three supervised classification models using repeated cro
 
 ## Context
 
-MSc in Statistics & Data Science, University College Dublin — Statistical Machine Learning module. The assignment focuses on robust model selection methodology rather than any single algorithm, emphasising reproducible evaluation practices.
+MSc in Statistics & Data Science, University College Dublin — Statistical Machine Learning module. This project focuses on robust model selection methodology rather than any single algorithm, emphasising reproducible evaluation practices.
 
 ## What it does
 
@@ -34,4 +34,4 @@ MSc in Statistics & Data Science, University College Dublin — Statistical Mach
 
 ## Data
 
-The dataset (`data_assignment.RData`) was provided by UCD and is not redistributed here. Place it in `data/` before running `src/classification.R`.
+The dataset (`classification.RData`) is not redistributed here. Place it in `data/` before running `src/classification.R`.

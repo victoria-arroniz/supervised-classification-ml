@@ -1,11 +1,6 @@
 # ==============================================================================
-# ==============================================================================
-# ===                                                                        ===
-# ===                     Statistical Machine Learning                       ===
-# ===                                                                        ===
-# ===                   Victoria Arróniz Soriano 25221241                    ===
-# ===                                                                        ===
-# ==============================================================================
+# Supervised Classification — Logistic Regression, SVM-RBF, Random Forest
+# Model comparison via repeated 5-fold cross-validation (caret)
 # ==============================================================================
 
 # Packages
@@ -19,7 +14,7 @@ library(ROCR)
 # Inspection of the data
 # ==============================================================================
 
-load("data_assignment.RData")
+load("data/classification.RData")
 
 # Missing values 
 colSums(is.na(data))
@@ -253,6 +248,5 @@ table(y_hat)
 prop.table(table(y_hat))
 prop.table(table(data$y))
 
-# Save student id
-save(y_hat, p_hat, file = "25221241.RData")
+save(y_hat, p_hat, file = "data/predictions.RData")
 
