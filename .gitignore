@@ -1,0 +1,19 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Data — university-provided dataset, do not distribute
+data/*.RData
+data/*.rda
+data/*.rds
+data/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
